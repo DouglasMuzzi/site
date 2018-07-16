@@ -79,13 +79,12 @@ font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 #bordaredonda{
 	border-radius: 25px;
-    background-image:url(imagens/images.png);
-	background-repeat:no-repeat;
+
 	background-color:white;
 	background-position:bottom left;
     padding: 20px; 
     width: 250px;
-    height: 300px; 
+    height: 100px; 
 	color:green;
 }
 #bolinha{
@@ -95,11 +94,10 @@ font-family: Verdana, Arial, Helvetica, sans-serif;
 	background-position:bottom;
 	background-repeat:no-repeat;
     padding: 20px; 
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 	text-align:center;
 	overflow:auto;
-	color:green;
 }
 #bolinha:hover{
 	height:200px;
@@ -131,4 +129,30 @@ font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 #botaum:active{
 	box-shadow:0px 0px 0px 
+}
+#botaomeme{
+	border-radius:25px;
+	display:inline-block;
+	font-size:25px;
+	background-color:#f93939;
+	padding:20px;
+	box-shadow: 4px 5px 1px rgba(0,0,0,.9);
+}
+#botaomeme:hover{
+	box-shadow: 2px 1.5px .5px rgba(0,0,0,.9);
+}
+#botaomeme:active{
+	box-shadow:0px 0px 0px 
+}
+#divman{
+	background: white;
+	background-image:url(imagens/angry.jpg);
+	background-position:bottom;
+	background-repeat:no-repeat;
+    padding: 20px; 
+    width: 600px;
+    height: 458px;
+	text-align:center;
+	overflow:auto;
+	display:none;
 }
