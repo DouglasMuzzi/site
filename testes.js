@@ -1,5 +1,5 @@
 function momgay(){
-	window.alert('ur mom gay lol')
+	window.alert('Stonp clinkin')
 }
 function clonk(){
 	var x = document.getElementById("divman");
