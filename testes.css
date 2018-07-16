@@ -79,10 +79,9 @@ font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 #bordaredonda{
 	border-radius: 25px;
-
 	background-color:white;
 	background-position:bottom left;
-    padding: 20px; 
+    padding: 10px; 
     width: 250px;
     height: 100px; 
 	color:green;
