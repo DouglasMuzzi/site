@@ -59,7 +59,7 @@ font-family: Verdana, Arial, Helvetica, sans-serif;
 	HEIGHT:100%;
 	width:25%;
 	top:0;
-	background:linear-gradient(black,#777777,white);
+	background-color:#777777;
 }
 #conteudo2{
 	right:0;
@@ -67,7 +67,7 @@ font-family: Verdana, Arial, Helvetica, sans-serif;
 	position:absolute;
 	width:25%;
 	top:0;
-	background:linear-gradient(to right, black,#777777,white);
+	background-color:#777777;
 
 }
 #footer{
