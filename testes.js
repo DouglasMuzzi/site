@@ -14,11 +14,11 @@ function registro(){
 	var x = document.getElementById("erro");
 	var y = document.getElementById("btnregistro");
 	var z =document.getElementById("bom");
-	var nome=document.getElementById("nome");
-	var sobrenome=document.getElementById("sobrenome");
-	var tel=document.getElementById("tel");
-	var voide=document.getElementById("voide");
-	if(!nome||!sobrenome||!tel||!voide){
+	var nome=document.getElementById("nome").value;
+	var sobrenome=document.getElementById("sobrenome").value;
+	var tel=document.getElementById("tel").value;
+	var voide=document.getElementById("voide").value;
+	if(nome=="" || sobrenome=="" || tel=="" || voide==""){
 		x.style.display = "block";
 		y.style.display = "none";
 	}
