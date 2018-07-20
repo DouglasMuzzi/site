@@ -17,7 +17,7 @@ body{
 	background-color:#333333;
 	border:0;
 	text-shadow: 4px 5px 1px rgba(0,0,0,.9);
-		background-image:url(imagens/spaace.jpg);
+	background-image:url(imagens/spaace.jpg);
 }
 #navigation ul{
 	text-align:center;
@@ -32,6 +32,7 @@ body{
 	background-color:#4c4c4c;
 	margin:-4;
 	padding:2px;
+	background-image:url(imagens/spaace.jpg);
 }
 #navigation li a{
 	padding: 14px 16px;
@@ -49,13 +50,6 @@ body{
 	background-image:url(imagens/spaace.jpg);
 	text-align:center;
 	margin:auto;
-}
-#footer{
-	text-align:center;
-	position:absolute;
-	width:100%;
-	top:100%;
-	background-color:#333333;
 }
 #bordaredonda{
 	border-radius: 25px;

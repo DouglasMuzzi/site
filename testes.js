@@ -11,6 +11,8 @@ function clonk(){
     }
 }
 function registro(){
+	var fundo1 = document.getElementById("header");
+	var fundo2 = document.getElementById("navigation");	
 	var x = document.getElementById("erro");
 	var y = document.getElementById("btnregistro");
 	var z =document.getElementById("bom");
@@ -21,6 +23,8 @@ function registro(){
 	if(nome=="" || sobrenome=="" || tel=="" || voide==""){
 		x.style.display = "block";
 		y.style.display = "none";
+		fundo1.style.display="none";
+		fundo2.style.display="none";
 	}
 	else{
 		z.style.display = "block";
