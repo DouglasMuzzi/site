@@ -7,23 +7,24 @@
 	box-sizing:border-box;
 }
 body{
-font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 #header{
 	text-align:center;
 	position:relative;
-	top:0;
 	width:100%;
 	height:50px;
 	background-color:#333333;
 	border:0;
 	text-shadow: 4px 5px 1px rgba(0,0,0,.9);
+		background-image:url(imagens/spaace.jpg);
 }
 #navigation ul{
 	text-align:center;
 	background-color:#4c4c4c;
 	list-style-type:none;
     overflow: hidden;
+	background-image:url(imagens/spaace.jpg);
 	}	
 #navigation li {
 	display:inline-block;
@@ -37,42 +38,24 @@ font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 #navigation li a:hover{
 	background-color:#444444;
+	cursor:pointer;
 }
 .active{
 	background-color:red;
 }
+#bigboye{
+	background-image:url(imagens/spaace.jpg);
+}
 #main{
 	position:relative;
 	height:100%;
-	background-color:#777777;
-}
-#meio{
+	background-image:url(imagens/spaace.jpg);
 	text-align:center;
 	margin:auto;
-	position:relative;
-	height:100%;
-	width:50%;
-}
-#conteudo1{
-	left:0;
-	position:absolute;
-	HEIGHT:100%;
-	width:25%;
-	top:0;
-	background-color:#777777;
-}
-#conteudo2{
-	right:0;
-	height:100%;
-	position:absolute;
-	width:25%;
-	top:0;
-	background-color:#777777;
-
 }
 #footer{
 	text-align:center;
-	position:relative;
+	position:absolute;
 	width:100%;
 	top:100%;
 	background-color:#333333;
@@ -81,39 +64,29 @@ font-family: Verdana, Arial, Helvetica, sans-serif;
 	border-radius: 25px;
 	background-color:white;
 	background-position:bottom left;
-    padding: 10px; 
+    padding:10px; 
     width: 250px;
     height: 100px; 
 	color:green;
+	position:absolute;
+	left:80%;
+	top:10px;
 }
 #bolinha{
 	border-radius: 50%;
     background: white;
 	background-image:url(imagens/download.png);
 	background-position:bottom;
-	background-repeat:no-repeat;
     padding: 20px; 
     width: 150px;
     height: 150px;
-	text-align:center;
 	overflow:auto;
+	left:0;
 }
 #bolinha:hover{
-	height:200px;
-	width:335px;
+	height:100%;
+	width:100%;
 	transition: width 2s, height 4s;
-}
-#deuspepe{
-	background: white;
-	background-image:url(imagens/god.jpg);
-	background-position:bottom;
-	background-repeat:no-repeat;
-    padding: 20px; 
-    width: 675px;
-    height: 662px;
-	text-align:center;
-	overflow:auto;
-
 }
 #botaum{
 	border-radius:25px;
@@ -123,7 +96,8 @@ font-family: Verdana, Arial, Helvetica, sans-serif;
 	padding:20px;
 	box-shadow: 4px 5px 1px rgba(0,0,0,.9);
 	position:absolute;
-	top:400px;
+	top:50%;
+	left:45%;
 }
 #botaum:hover{
 	box-shadow: 2px 1.5px .5px rgba(0,0,0,.9);
@@ -140,6 +114,8 @@ font-family: Verdana, Arial, Helvetica, sans-serif;
 	box-shadow: 4px 5px 1px rgba(0,0,0,.9);
 	position:absolute;
 	top:590px;
+	top:80%;
+	left:45%;
 }
 #botaomeme:hover{
 	box-shadow: 2px 1.5px .5px rgba(0,0,0,.9);
