@@ -43,9 +43,6 @@ body{
 .active{
 	background-color:red;
 }
-#bigboye{
-	background-image:url(imagens/spaace.jpg);
-}
 #main{
 	position:relative;
 	height:100%;
