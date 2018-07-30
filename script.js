@@ -17,5 +17,16 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
     $('#tel').mask('(00) 00000-0000');
+});
+
+$(document).ready(function(){
+    $("#botaomeme").click(function(){	
+		$('#divman').toggle();
+	})
+});	
+$(document).ready(function(){
+    $("#botaum").click(function(){	
+		alert('Lol Get Bambeezleded')
+	})
 });	
 
