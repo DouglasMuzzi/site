@@ -14,19 +14,18 @@ $(document).ready(function(){
 		$('#bom').show();
 	}
 });
-});
-$(document).ready(function(){
-    $('#tel').mask('(00) 00000-0000');
-});
-
-$(document).ready(function(){
-    $("#botaomeme").click(function(){	
+	$('#tel').mask('(00) 00000-0000');
+	
+	
+	$("#botaomeme").click(function(){	
 		$('#divman').toggle();
-	})
-});	
-$(document).ready(function(){
-    $("#botaum").click(function(){	
+})
+
+	 $("#botaum").click(function(){	
 		alert('Lol Get Bambeezleded')
 	})
-});	
+
+});
+
+
 

@@ -1,0 +1,67 @@
+*{
+	margin:0;
+	padding:0;
+	border: 0;
+	color:white;
+	text-decoration: none;
+	box-sizing:border-box;
+}
+body{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+#header{
+	text-align:center;
+	position:relative;
+	height:50px;
+	border:0;
+	text-shadow: 4px 5px 1px rgba(0,0,0,.9);
+}
+#navigation ul{
+	text-align:center;
+	list-style-type:none;
+    overflow: hidden;
+	}	
+#navigation li {
+	display:inline-block;
+	font-size:25px;
+	margin:-4;
+	padding:2px;
+}
+#navigation li a{
+	padding: 14px 16px;
+}
+#navigation li a:hover{
+	background-color:#444444;
+	cursor:pointer;
+}
+.active{
+	background-color:red;
+}
+#main{
+	position:fixed;
+	height:100%;
+	width:100%;
+	overflow:auto;
+	left: 0;
+    top: 0;
+	background-image:url(imagens/spaace.jpg);
+	text-align:center;
+}
+#loader{
+	position:absolute;
+	height:50%;
+	width:50%;
+	left:25%;
+	
+}
+.loader {
+	border: 16px solid; 
+    border-radius: 50%;
+    animation: spin 2s linear infinite;
+	background-image:url(imagens/ree.jpg)
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
