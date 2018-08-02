@@ -21,9 +21,9 @@ body{
 }
 @keyframes aaa{
 	0% { left:0px; top:0px;}
-	25%{ left:1150px; top:0px;}
-	50%{ left:1150px; top:450px;}
-	75%{ left:0px; top:450px;}
+	25%{ left:80%; top:0px;}
+	50%{ left:80%; top:500px;}
+	75%{ left:0px; top:500px;}
 	100%{left:0px; top:0px;transform:rotate(720deg); }
 }
 p{
