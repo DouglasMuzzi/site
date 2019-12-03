@@ -11,7 +11,28 @@ body{
 }
 #void{
 	position:absolute;
-	top:50%;
+
+	color:black;
+	text-align:center;
+}
+#divoid{
+	position:absolute;
+	top:50%;	
 	left:50%;
-	color:black
+}
+#asax{
+	background-image:url(imagens/xasa.jpg);
+	height:200px;
+	width:200px;
+	animation-name:zoom;
+	position:absolute;
+	animation-duration:3s;
+
+}	
+@keyframes zoom{
+	0% {left:100%; top:0;}
+	80%{left:0%; top:85%;}
+	100%{left:0%; top:0;}
+	
+	
 }
